@@ -1,4 +1,4 @@
-# raspberri-pi-4b-fan
+# raspberry-pi-4b-fan
 Code for systemd service that controls fan.
 
 # Hardware requirements
@@ -18,7 +18,7 @@ Code for systemd service that controls fan.
 # Installation
 Clone the repo:
 ```
-git clone https://github.com/seandlg/raspberri-pi-4b-fan
+git clone https://github.com/seandlg/raspberry-pi-4b-fan
 mkdir -p /home/pi/Scripts && mv raspberry-pi-4b-fan /home/pi/Scripts
 ```
 Copy and enable the service:
