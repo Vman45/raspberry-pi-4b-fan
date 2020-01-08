@@ -16,6 +16,10 @@ Code for systemd service that controls fan.
 5. Solder as required.
 
 # Installation
+Install dependencies:
+```
+sudo apt-get install python3-gpiozero
+```
 Clone the repo:
 ```
 git clone https://github.com/seandlg/raspberry-pi-4b-fan
