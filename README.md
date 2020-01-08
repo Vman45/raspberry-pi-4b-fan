@@ -8,7 +8,7 @@ Code for systemd service that controls fan.
 - Some cable
 - Soldering equipment
 
-# Setup
+# Hardware setup
 1. Connect power (5V; PIN 4) directly to fan.
 2. Connect ground to transitor base (0V; PIN 6).
 3. Connect GPIO21 (PIN 40) to collector.
