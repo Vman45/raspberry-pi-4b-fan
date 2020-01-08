@@ -9,9 +9,9 @@ Code for systemd service that controls fan.
 - Soldering equipment
 
 # Hardware setup
-1. Connect power (5V; PIN 4) directly to fan.
-2. Connect ground to transitor base (0V; PIN 6).
-3. Connect GPIO21 (PIN 40) to collector.
+1. Connect power (5V; PIN 4) directly to fan's power (5V).
+2. Connect ground (0V; PIN 6) to collector.
+3. Connect GPIO21 to transitor base (PIN 40).
 4. Connect emitter to fan's ground.
 5. Solder as required.
 
