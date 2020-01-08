@@ -1,0 +1,11 @@
+[Unit]
+Description=System fan control
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Scripts/fan.py
+ExecStop=killall fan.py
+
+[Install]
+WantedBy=multi-user.target
